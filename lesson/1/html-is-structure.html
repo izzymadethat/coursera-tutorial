@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML is All About Structure</title>
+</head>
+<body>
+	<h1 style="color: green; text-align: center;">HTML is Only Structure</h1>
+	<p style="text-align: center; font-weight: bold;">HTML is structure of a website.</p>
+	<p>It consists of elements and these elements either describe the type of content to display or tell the browser more information about the content.</p>
+
+	<h2>Anatomy</h2>
+	<p>Each element at its most basic form has:
+		<ol>
+			<li>The element's name (like 'p' indicating the content is a paragraph section)</li>
+			<li>The opening tag (< p >)</li>
+			<li>The content after the opening tag, which is the text inside the paragraph</li>
+			<li>Finally, the closing tag (< / p>)</li>
+		</ol>
+
+		<br>
+		Not everything has to have closing tags though.
+		<br>
+		< br> (Line break) and < hr > (Horizontal rule) don't need closing tags. They are considered self-closing
+	</p>
+
+	<p>
+		Each element can have its own attributes. We use these to classify certain elements or add specific styling to the elements.
+	</p>
+	<p>
+		<strong>id:</strong> id attributes are single-use <br>
+		<strong>class:</strong> classes can be used to classsify a group of elements that will share the same styling and attributes <br>
+		<strong>functions:</strong> each elements can have functions like onclick, which tells the browser what to do when an element is clicked
+	</p>
+
+	<p>
+		Everything in html is sequential, from top to bottom.
+	</p>
+	<br>
+	<h1 style="text-align: center;">HTML Content Models</h1>
+	<div class="block-vs-inline" style="display: flex; justify-content: space-evenly;">
+		<div class="block">
+			<h1>Block</h1>
+			<p>Block elements render on a new line by default.</p>
+
+			<p style="font-weight: bold;">Common Block Elements</p>
+			<ul>
+				<li>div tag</li>
+				<li>h1-h6 text</li>
+				<li>p text</li>
+				<li>all list elements</li>
+				<li>all table elements</li>
+				<li>nav tag</li>
+			</ul>
+		</div>
+		<div class="block">
+			<h1>Inline Elements</h1>
+			<p>Inline elements stay on the same line by default.</p>
+
+			<p style="font-weight: bold;">Common Block Elements</p>
+			<ul>
+				<li>a (links)</li>
+				<li>img </li>
+				<li>button</li>
+				<li>span</li>
+				<li>script</li>
+				<li>input</li>
+			</ul>
+		</div>
+	</div>
+
+<!-- Footer Section -->
+	<footer>
+		<hr>
+		<p style="cursor: pointer; text-align:center;" onclick="alert('EMAILING THIS IS USELESS!!');">Contact: fake.email@server-doesnt-work.com</a></p>
+		<a href="/index.html">Go Home</a>
+	</footer>
+</body>
+</html>
